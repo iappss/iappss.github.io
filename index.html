@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="/iapps/static/img/melogo.png" rel="shortcut icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no, user-scalable=no, minimum-scale=1">
+  <meta name="msapplication-TileColor" content="#171717">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="سیب ایرانی">
+  <meta name="apple-mobile-web-app-title" content="سیب ایرانی">
+  <meta name="theme-color" content="#171717">
+  <meta name="msapplication-navbutton-color" content="#171717">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="msapplication-starturl" content="/" />
+
+  <!-- Adding Bootstrap CSS for a modern layout -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Adding Google Fonts for better typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <meta name="robots" content="noindex, nofollow">
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .preloader {
+      width: 100%;
+      height: 31px;
+      text-align: center;
+    }
+
+    .cssload-speeding-wheel {
+      width: 31px;
+      height: 31px;
+      margin: 0 auto;
+      border: 2px solid #03c760;
+      border-radius: 50%;
+      border-left-color: transparent;
+      border-right-color: transparent;
+      animation: cssload-spin 425ms infinite linear;
+    }
+
+    @keyframes cssload-spin {
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    .preloader {
+      width: 100%;
+      height: 100%;
+      top: 0;
+      position: fixed;
+      z-index: 9999999999;
+      background: #fff;
+    }
+
+    #preloader_sib {
+      display: none;
+    }
+
+    .preloader .cssload-speeding-wheel {
+      position: absolute;
+      top: calc(50% - 3.5px);
+      left: calc(50% - 3.5px);
+    }
+
+    @media (max-width: 1200px) {
+      #preloader_sib {
+        display: block;
+      }
+    }
+
+    .app_name {
+      line-height: 1.4;
+    }
+
+    .btn-apir {
+      background-color: #e02525 !important;
+      color: #fff;
+      font-weight: bold !important;;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 10px 2px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-apir:hover {
+      background-color: #029a1b;
+    }
+
+    .app_item_call {
+      padding: 10px 0;
+    }
+
+    .app_item_call .title {
+      font-weight: bold;
+    }
+
+    .app_item_call .value {
+      font-size: 1.2rem;
+    }
+  </style>
+
+  <title>همراه بانک ملت</title>
+  <link href="/iapps/static/css/2.b5e6ad5d.chunk.css" rel="stylesheet">
+  <link href="/iapps/static/css/main.2dc8bc23.chunk.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="root">
+  <div class="App">
+    <div class="app_main">
+      <div class="app_page_single container">
+        <div class="single_page">
+          <div class="app_page">
+            <div class="header_single_page">
+              <div class="row">
+                <div class="col-xs-12 col-md-9">
+                  <div class="icon_cover_single">
+                    <div class="icon_cover_single" style="background-image:url(/iapps/static/img/melogo.png)">
+                      <img alt="همراه بانک ملت" src="/iapps/static/img/melogo.png" class="hidden">
+                      <span class="pwa_icon"></span>
+                    </div>
+                  </div>
+                  <div class="detail">
+                    <h1 class="app_name">همراه بانک ملت | Mellat Bank</h1>
+                    <span class="slogan">نرم افزار هوشمند بانکی که طراحی نسخه جدید آن مطابق با سلیقه مشتریان انجام شده است.</span>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                  <div class="download-btn install pc" id="install_box">
+                    <a href="./Mellat.apk" class="btn btn-apir btn-block">دانلود اپلیکیشن</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slder-new-section app_intro_items mobile_scrin">
+              <div class="col">
+                <div class="main_slder_box">
+                  <div class="app_item_call">
+                    <div class="title">24 نظر</div>
+                    <div class="value">
+                      <div class="value_m">
+                        <div class="avrage_rate">3.6</div>
+                        <div class="comment-rate single">
+                                          <span class="MuiRating-readOnly MuiRating-root MuiRating-sizeSmall" aria-label="4 Stars" role="img">
+                                             <span>
+                                                <span class="MuiRating-icon MuiRating-iconFilled">
+                                                   <svg viewBox="0 0 24 24" class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit" aria-hidden="true" focusable="false">
+                                                      <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path>
+                                                   </svg>
+                                                </span>
+                                             </span>
+                                             <span>
+                                                <span class="MuiRating-icon MuiRating-iconFilled">
+                                                   <svg viewBox="0 0 24 24" class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit" aria-hidden="true" focusable="false">
+                                                      <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path>
+                                                   </svg>
+                                                </span>
+                                             </span>
+                                             <span>
+                                                <span class="MuiRating-icon MuiRating-iconFilled">
+                                                   <svg viewBox="0 0 24 24" class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit" aria-hidden="true" focusable="false">
+                                                      <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path>
+                                                   </svg>
+                                                </span>
+                                             </span>
+                                             <span>
+                                                <span class="MuiRating-icon MuiRating-iconFilled">
+                                                   <svg viewBox="0 0 24 24" class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit" aria-hidden="true" focusable="false">
+                                                      <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path>
+                                                   </svg>
+                                                </span>
+                                             </span>
+                                             <span>
+                                                <span class="MuiRating-icon MuiRating-iconEmpty">
+                                                   <svg viewBox="0 0 24 24" class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit" aria-hidden="true" focusable="false">
+                                                      <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path>
+                                                   </svg>
+                                                </span>
+                                             </span>
+                                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="app_item_call">
+                    <div class="title">تعداد دانلود</div>
+                    <div class="value">
+                      <div class="value_m">
+                        <div style="direction: ltr;">+60K</div>
+                        <div class="label_dr">بار</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="app_item_call">
+                    <div class="title">هزینه</div>
+                    <div class="value">
+                      <div class="value_m">
+                        <div>اشتراکی</div>
+                        <div class="label_dr"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="app_item_call">
+                    <div class="title">دسته بندی</div>
+                    <div class="value">
+                      <div class="value_m">
+                        <div><a href="/app_category/خدمات">خدمات</a></div>
+                        <div class="label_dr"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="app_item_call">
+                    <div class="title">حجم</div>
+                    <div class="value">
+                      <div class="value_m">
+                        <div class="check">32</div>
+                        <div class="label_dr">MB</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="app_item_call">
+                    <div class="title">نسخه</div>
+                    <div class="value">
+                      <div class="value_m">
+                        <div class="check">4.2.1</div>
+                        <div class="label_dr"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="app_item_call">
+                    <div class="title">نسخه Native</div>
+                    <div class="value">
+                      <div class="value_m">
+                        <div class="check">
+                          <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                            <path d="M20.687 38.332a5.308 5.308 0 0 1-7.505 0L1.554 26.704A5.306 5.306 0 1 1 9.059 19.2l6.928 6.927a1.344 1.344 0 0 0 1.896 0L36.642 7.368a5.308 5.308 0 0 1 7.505 7.504l-23.46 23.46z"></path>
+                          </svg>
+                        </div>
+                        <div class="label_dr"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="app_item_call">
+                    <div class="title">نسخه pwa</div>
+                    <div class="value">
+                      <div class="value_m">
+                        <div class="check">
+                          <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                            <path d="M20.687 38.332a5.308 5.308 0 0 1-7.505 0L1.554 26.704A5.306 5.306 0 1 1 9.059 19.2l6.928 6.927a1.344 1.344 0 0 0 1.896 0L36.642 7.368a5.308 5.308 0 0 1 7.505 7.504l-23.46 23.46z"></path>
+                          </svg>
+                        </div>
+                        <div class="label_dr"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="makeStyles-imageSliders-19">
+              <div class="makeStyles-mySwiperPortrait-20 swiper-container" modules="[object Object]">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="swiper-zoom-container"><img alt="" src="/iapps/static/img/1.webp" id="screenshot_sib_1"></div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-zoom-container"><img alt="" src="/iapps/static/img/2.webp" id="screenshot_sib_2"></div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-zoom-container"><img alt="" src="/iapps/static/img/3.webp" id="screenshot_sib_3"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="description_fa">
+              <div class="header_description">
+                <h3>توضیح</h3>
+              </div>
+              <h2><br>معرفی و دانلود برنامه همراه بانک ملت برای آیفون از استور سیب ایرانی</h2>
+              <p>بانکداری اینترنتی و نوین با هدف سهولت انجام امور بانکی و مالی به صورت آنلاین، بدون محدودیت زمانی و مکانی در قالب اپلیکیشن‌های همراه بانک طراحی شده‌اند. همراه بانک ملت نرم افزاری هوشمند می‌باشد که متعلق به بانک ملت است و طراحی نسخه جدید آن مطابق با سلیقه مشتریان انجام شده است.<br>
+              <h3><br> <br>معرفی خدمات و ویژگی‌ها</h3>
+              <p>با این برنامه انجام امور بانکی آسان‌تر و سریع‌تر از همیشه خواهد بود. در ادامه برای شناخت بیشتر، برخی از خدمات و ویژگی‌های اپلیکیشن همراه بانک ملت برای شما آورده شده است که شامل:
+              <ul>
+                <li>امکان ورود با اسکن اثر انگشت و یا تشخیص چهره برای کاربران دارای گوشی هوشمند</li>
+                <li> انتخاب تم تاریک و روشن</li>
+                <li> مدیریت مخاطبین ( امکان افزودن مخاطب جدید، ویرایش و حذف مخاطبین قدیم )</li>
+                <li>امکان دریافت مانده کارت</li>
+                <li> دسترسی آسان به مخاطبین پرتکرار در منوی اصلی، شماره حساب و شماره کارت جهت دسترسی سریع و تراکنش آسان‌تر به مخاطب</li>
+                <li>دریافت صورتحساب، مشاهده جزئیات اطلاعات تراکنش‌ها، امکان افزودن یادداشت، امکان طبقه بندی تراکنش‌ها و امکان جستجو پیشرفته</li>
+                <li>انتقال وجه، انتقال پول ازحساب به حسابی دیگر به صورت درون بانکی و بین بانکی، تشخیص هوشمند نوع انتقال پول ( ساتنا، پایا و...) با در نظر گرفتن مبلغ و مقصد تراکنش، همچنین امکان تائید چند مرحله‌ای انتقال پول</li>
+                <li> پرداخت قبض، امکان پرداخت با استفاده از بارکدخوان</li>
+                <li>خرید بسته اینترنت</li>
+                <li>پرداخت اقساط تسهیلات ملت و مشاهده فهرست و وضعیت تسهیلات</li>
+                <li>امکان افزودن و پرداخت تسهیلات دیگران</li>
+                <li> ثبت بازخورد در برنامه</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Adding Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
